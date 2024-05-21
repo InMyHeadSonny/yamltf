@@ -2,7 +2,7 @@ version: '3'
 
 services:
   grafana:
-    bulid:
+    build:
       context: .
       dockerfile: dockerfile
     image: grafana/grafana:latest
